@@ -31,6 +31,7 @@ export const links = () => {
     {
       rel: 'preconnect',
       href: 'https://fonts.googleapis.com',
+      as: 'font',
     },
     {
       rel: 'preconnect',
@@ -41,6 +42,8 @@ export const links = () => {
     {
       href: 'https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Outfit:wght@400;800;900&display=swap',
       rel: 'stylesheet',
+      crossOrigin: 'true',
+      as: 'font',
     },
   ]
 }
