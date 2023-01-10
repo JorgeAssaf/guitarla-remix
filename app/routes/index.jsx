@@ -10,6 +10,13 @@ import styleGuitarras from '~/styles/guitarras.css'
 import styleBlog from '~/styles/blog.css'
 import styleCurso from '~/styles/curso.css'
 
+export const meta = () => {
+  return {
+    title: 'GuitarLA - Inicio',
+    description: 'GuitarLA - Catalogo, Post y Cursos',
+  }
+}
+
 export const links = () => {
   return [
     { rel: 'stylesheet', href: styleGuitarras },
