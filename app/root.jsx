@@ -102,7 +102,7 @@ function Document({ children }) {
         <Header />
         {children}
         <Footer />
-        <ScrollRestoration />
+
         <Scripts />
 
         <LiveReload />
